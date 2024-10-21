@@ -13,36 +13,21 @@
 
 <body>
     <div class="wrapper">
-        <div class="nav">
+        <!-- <div class="nav">
             To-Do List
-        </div>
+        </div> -->
         <div class="container">
-            <ul>
-                <div id="li">
-                    <input type="radio" name="Radio" id="checked">
-                    <label for="checked"><li id="to-do-list">Lorem ipsum dolor sit amet consectetur  </li></label>
-                    <i class="fa-regular fa-trash-can" style="display: none;"></i>
-                </div>
-
-                <!-- <div id="li">
-                    <input type="radio" name="Radio" id="checked">
-                    <label for="checked"><li id="to-do-list">bathing</li></label>
-                    <i class="fa-regular fa-trash-can"></i>
-                </div>
-
-                <div id="li">
-                    <input type="radio" name="Radio" id="checked">
-                    <label for="checked"><li id="to-do-list">bathing</li></label>
-                    <i class="fa-regular fa-trash-can"></i>
-                </div>
-
-                <div id="li">
-                    <input type="radio" name="Radio" id="checked">
-                    <label for="checked"><li id="to-do-list">bathing</li></label>
-                    <i class="fa-regular fa-trash-can"></i>
-                </div> -->
+            <h1>To-Do List</h1>
+            <div class="input-container">
+                <input type="text" name="Input" id="input-task" placeholder="Add your text here">
+                <button onclick="addTask()">
+                    Add
+                </button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">hello</li>
+                <li class="checked">hi</li> -->
             </ul>
-            <button type="button" class="btn" id="button">+ New Task</button>
 
         </div>
     </div>
